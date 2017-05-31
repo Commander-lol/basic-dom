@@ -7,7 +7,7 @@
 		fill
 
 	function camelToPropertyName(name) {
-		name.replace(camelMatcher, function dashifyCamelName(match, lower, cap) {
+		return name.replace(camelMatcher, function dashifyCamelName(match, lower, cap) {
 			return lower + '-' + cap.toLowerCase()
 		})
 	}
