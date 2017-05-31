@@ -1,0 +1,23 @@
+{
+  "name": "basic-dom",
+  "authors": [
+    "Louis Capitanchik <contact@louiscap.co>"
+  ],
+  "description": "Simple DOM query, manipulation & creation in minimal code, using standard ES5 constructs",
+  "main": "basicdom.js",
+  "keywords": [
+    "DOM",
+    "basic",
+    "createElement",
+    "views"
+  ],
+  "license": "Apache-2.0",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
