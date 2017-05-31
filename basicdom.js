@@ -40,7 +40,7 @@
 	}
 
 	$$ = function selectArrayFromDOM(sel) {
-		return Array.from(document.querySelector(sel))
+		return Array.from(document.querySelectorAll(sel))
 	}
 
 	el = function createDomElement(el, attr, children) {
