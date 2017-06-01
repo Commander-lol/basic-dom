@@ -49,7 +49,7 @@
 
 		for (var prop in attr) {
 			if (prop.substr(0, 2) === 'on') { // EventListener
-				e.addEventListener(prop.substr(2), attr[prop])
+				e.addEventListener(prop.substr(2).toLowerCase(), attr[prop])
 			} else if (prop === 'style') {
 				var value = attr[prop]
 				if (typeof value === 'string') {
